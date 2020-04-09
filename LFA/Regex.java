@@ -1,5 +1,6 @@
+package LFA;
 import java.io.*;
-import java.security.DrbgParameters.NextBytes;
+ import java.security.DrbgParameters.NextBytes;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Pattern;
@@ -7,7 +8,7 @@ import java.util.regex.Matcher;
 
 public class Regex {
  public static void main(String[] args) throws IOException {
-  BufferedReader br = new BufferedReader(new FileReader("expressao.txt"));
+  BufferedReader br = new BufferedReader(new FileReader("LFA/expressao.txt"));
  
   while (br.ready()) {
    String cadeia = br.readLine();
